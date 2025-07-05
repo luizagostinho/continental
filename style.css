@@ -4,6 +4,17 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.nav {
+  justify-content: right;
+  display: inline-block;
+  cursor: pointer;
+  gap: 30px;
+  padding: 20px;
+
+  box-shadow: 2px 2px 2px black;
+
+}
+
 img {
     display: flex;
       flex-wrap: wrap;
