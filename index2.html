@@ -5,29 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barbearia Continental</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 
     
 
 </head>
 <body>
   <header>
-    <img src="imagens/WhatsApp_Image_2025-05-13_at_22.30.52-removebg-preview.png" alt="Logo Barbearia Continental">
+  <div class="header-content">
+    <a href="#inicio"><img src="imagens/WhatsApp_Image_2025-05-13_at_22.30.52-removebg-previewhd.png" alt="Logo da Barbearia Continental" class="logo"></a>
     <nav>
-      <a href="#">Início</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#contato">Contato</a>
+      <a href="#inicio">Início</a>
+      <a href="#serviços">Serviços</a>
+      <a href="#agendamentos">Agendamento</a>
     </nav>
-  </header>
+  </div>
+</header>
   
   <main>
     <h1>Bem-vindo à Barbearia Continental</h1>
     <p>Seu estilo começa aqui. Corte, barba e atendimento de qualidade.</p>
+    <h2>Escolha seus serviços:</h2>
+
+     <div class="container">
+    <form>
+      <div class="section">
+        <h2>Corte de Cabelo</h2>
+        <label><input type="checkbox"> Corte Tradicional (R$ 40)</label><br>
+        <label><input type="checkbox"> Corte Degradê (R$ 45)</label><br>
+        <label><input type="checkbox"> Corte Navalhado (R$ 50)</label><br>
+        <label><input type="checkbox"> Máquina Completa (R$ 30)</label><br>
+        <label><input type="checkbox"> Infantil (até 12 anos) (R$ 35)</label><br>
+      </div>
+
+      <div class="section">
+        <h2>Combos</h2>
+        <label><input type="checkbox"> Corte + Barba (R$ 70)</label><br>
+        <label><input type="checkbox"> Corte + Barba + Sobrancelha (R$ 85)</label><br>
+        <label><input type="checkbox"> Corte + Hidratação Capilar (R$ 60)</label><br>
+      </div>
+
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </div>
   </main>
 
   <footer>
     <p>Barbearia Continental © 2025</p>
     <p>Rua Exemplo, 123 - Centro - São Paulo/SP</p>
-    <p>Contato: (11) 91234-5678 | contato@continentalbarbearia.com</p>
+    <p>Desenvolvido por <a href="https://www.instagram.com/odevluiz/" target="_blank">@odevluiz</a></p>
   </footer>
 </body>
 </html>
